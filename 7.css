@@ -1,0 +1,38 @@
+#Area{
+    height: 700px;
+    width: 1500px;
+    position: relative;
+}
+.Square{
+    position: absolute;
+    background-color: red;
+    border: solid 1px black;
+}
+
+.Square:hover{
+    background-color: yellow;
+
+}
+.Сircle:hover{
+    background-color: yellow;
+
+}
+
+.Сircle{
+    position: absolute;
+    background-color: green;
+    border: solid 1px black;
+}
+
+.Triangle{
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border: solid 1px transparent;
+    border-bottom-color: blue;
+}
+
+.Triangle:hover{
+    border-bottom-color: yellow;
+
+}
